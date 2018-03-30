@@ -156,7 +156,7 @@
 				resourceName="MYSQLDatabase"
 				debug="9"
 				driverName="org.gjt.mm.mysql.Driver"
-				connectionURL="jdbc:mysql://localhost/project?user=root&amp;password=TooMuchSwag69"
+				connectionURL="jdbc:mysql://localhost/project?user=root&amp;password=matematika6"
 				userTable="users" userNameCol="user_name" userCredCol="user_pass"
 				userRoleTable="user_roles" roleNameCol="role_name"/>
       </Realm>

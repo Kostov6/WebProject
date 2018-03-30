@@ -1,3 +1,5 @@
 Register.class
-RegistrationException.class
+GitAuth.class
 UserDatabase.class
+JSONTest.class
+RegistrationException.class
