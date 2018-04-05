@@ -1,5 +1,6 @@
-Register.class
-GitAuth.class
-UserDatabase.class
-JSONTest.class
-RegistrationException.class
+tests\JSONTest.class
+backend\GitAuth.class
+exceptions\RegistrationException.class
+tests\TestRegister.class
+backend\Register.class
+backend\UserDatabase.class
