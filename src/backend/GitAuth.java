@@ -41,7 +41,6 @@ public class GitAuth extends HttpServlet {
      */
     public GitAuth() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
@@ -71,7 +70,6 @@ public class GitAuth extends HttpServlet {
 		try {
 			post.setEntity(new UrlEncodedFormEntity(params, "UTF-8"));
 		} catch (UnsupportedEncodingException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -93,10 +91,8 @@ public class GitAuth extends HttpServlet {
 				    }
 			}
 		} catch (ClientProtocolException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -108,7 +104,6 @@ public class GitAuth extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 	}
 
 }

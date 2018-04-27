@@ -42,7 +42,6 @@ public class UserDatabase extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 
 		String method = request.getParameter("method");
 		if (method != null) {
@@ -92,7 +91,6 @@ public class UserDatabase extends HttpServlet {
 			connection.close();
 
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

@@ -61,7 +61,6 @@ public class Register extends HttpServlet {
 		try {
 			attemptRerister(username, password, passwordRepeat);
 		} catch (RegistrationException | SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			status=e.getMessage();
 		}
