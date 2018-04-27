@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 05-Apr-2018 11:53:37.628 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
 05-Apr-2018 11:53:37.628 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
 05-Apr-2018 11:53:37.628 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@691491d3')
+=======
+05-Apr-2018 14:08:04.155 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Apr-2018 14:08:04.155 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+05-Apr-2018 14:08:04.155 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7f0fe101')
+>>>>>>> a2884fa671a409fbeb89f27137dd7fe3a2db5968

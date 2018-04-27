@@ -52,11 +52,16 @@ public class GitAuth extends HttpServlet {
 		
 		System.out.println("Reposting ...");
 		
-		repost(code,CLIENT_ID,CLIENT_SECRET);
+		String access_token=repostAndGetToken(code,CLIENT_ID,CLIENT_SECRET);
 		
 	}
 	
-	private void repost(String code,String clientId,String clientSecret) throws IOException
+	private String repostAndGetTokenJSON(String code,String clientId,String clientSecret) throws IOException{
+		
+		return null;
+	}
+	
+	private String repostAndGetToken(String code,String clientId,String clientSecret) throws IOException
 	{
 		CloseableHttpClient defClient=HttpClients.createDefault();
 		HttpPost post=new HttpPost("https://github.com/login/oauth/access_token");
@@ -66,14 +71,17 @@ public class GitAuth extends HttpServlet {
 		params.add(new BasicNameValuePair("client_id", clientId));
 		params.add(new BasicNameValuePair("client_secret", clientSecret));
 		params.add(new BasicNameValuePair("code", code));
-		params.add(new BasicNameValuePair("accept ", "json"));
+		params.add(new BasicNameValuePair("state", "hfksj4j3dfvscro"));
+		//params.add(new BasicNameValuePair("redirect_uri ", ""));
 		try {
 			post.setEntity(new UrlEncodedFormEntity(params, "UTF-8"));
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
 		
+		
 		HttpResponse response;
+<<<<<<< HEAD
 		try {
 			response = defClient.execute(post);
 			HttpEntity entity = response.getEntity();
@@ -94,10 +102,34 @@ public class GitAuth extends HttpServlet {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
+=======
+		response = defClient.execute(post);
+		HttpEntity entity = response.getEntity();
+		
+		String inputLine = null ;
+		
+		if (entity != null) {
+			BufferedReader br = new BufferedReader(new InputStreamReader(entity.getContent()));
+			//not safe code block
+			inputLine=br.readLine();
+			//
+	        br.close();
+
+>>>>>>> a2884fa671a409fbeb89f27137dd7fe3a2db5968
 		}
+		
+		System.out.println(inputLine);
+		System.out.println("Trimming:");
+		
+		String processed=inputLine.split("&")[0];
+		System.out.println(processed);
+		
+		processed=processed.split("=")[1];
+		System.out.println(processed);
 		
 		defClient.close();
 
+		return processed;
 	}
 
 	/**

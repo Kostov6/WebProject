@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0:0:0:0:0:0:0:1 - - [05/Apr/2018:11:54:14 +0300] "GET /WebProject/index.html HTTP/1.1" 200 1039
 0:0:0:0:0:0:0:1 - - [05/Apr/2018:11:54:14 +0300] "GET /WebProject/style.css HTTP/1.1" 404 1098
 0:0:0:0:0:0:0:1 - - [05/Apr/2018:11:54:14 +0300] "GET /favicon.ico HTTP/1.1" 404 1085
@@ -9,3 +10,22 @@
 0:0:0:0:0:0:0:1 - - [05/Apr/2018:12:01:29 +0300] "GET /WebProject/GitAuth?code=f6e43198899939c126fb HTTP/1.1" 200 -
 0:0:0:0:0:0:0:1 - - [05/Apr/2018:12:06:34 +0300] "GET /WebProject/style.css HTTP/1.1" 404 1098
 0:0:0:0:0:0:0:1 - - [05/Apr/2018:12:06:40 +0300] "GET /WebProject/GitAuth?code=5724fef0d2b369965f4d HTTP/1.1" 200 -
+=======
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:14:08:23 +0300] "GET /WebProject/register.html HTTP/1.1" 200 480
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:14:08:23 +0300] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:14:08:27 +0300] "GET /WebProject/index.html HTTP/1.1" 200 1039
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:14:08:27 +0300] "GET /WebProject/style.css HTTP/1.1" 404 1098
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:14:08:29 +0300] "GET /WebProject/login.html HTTP/1.1" 200 715
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:14:08:34 +0300] "GET /WebProject/GitAuth?code=f23b59bb05911435f52c HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:14:12:40 +0300] "GET /WebProject/style.css HTTP/1.1" 404 1098
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:14:12:41 +0300] "GET /WebProject/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:14:12:45 +0300] "GET /WebProject/GitAuth?code=898bc30dd248b965508b HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:14:23:49 +0300] "GET /WebProject/login.html HTTP/1.1" 200 736
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:14:24:49 +0300] "GET /WebProject/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:14:24:52 +0300] "GET /WebProject/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:14:26:29 +0300] "GET /WebProject/login.html HTTP/1.1" 200 737
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:14:26:30 +0300] "GET /WebProject/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:14:26:47 +0300] "GET /WebProject/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:14:26:51 +0300] "GET /WebProject/GitAuth?code=5c5ac7afc5a4f7d97fb6&state=hfksj4j3dfvscro HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [05/Apr/2018:15:06:12 +0300] "GET /WebProject/GitAuth?code=5c5ac7afc5a4f7d97fb6&state=hfksj4j3dfvscro HTTP/1.1" 200 -
+>>>>>>> a2884fa671a409fbeb89f27137dd7fe3a2db5968
