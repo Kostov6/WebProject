@@ -125,12 +125,66 @@ public class ThemaTable extends HttpServlet {
     
     public ArrayList<JsonObject> collectData()
     {
-    	ArrayList<JsonObject> res;
+    /*	ArrayList<JsonObject> res;
     	res=JSONCollector.collectDataFrom(filtered);
-    	System.out.println(res);
-    	return res;
+    	System.out.println(res);*/
+tableFormat=new ArrayList<ArrayList<String>>();
+        
+        ArrayList<String> tableRow=new ArrayList<String>();
+        
+        for(JsonValue el1 : filtered)
+        {
+        	JsonObject obj1=(JsonObject) el1;
+        	
+        	tableRow.add(obj1.getString("name"));
+        	
+        	JsonArray ar2=obj1.getJsonArray("repos");
+        	
+        	for(JsonValue el2 : ar2)
+        	{
+        		JsonObject ob1=(JsonObject) el2;
+        		
+        		tableRow.add(ob1.getString("name"));
+        		//here 
+        		String[] topics=getUserReposTopics(tableRow.get(0),tableRow.get(1));
+        		for(String topic : topics)
+        		{
+        			ArrayList<String> newRow=(ArrayList<String>)tableRow.clone();
+        			newRow.add(topic);
+        		tableFormat.add(newRow);
+        		}
+        		tableRow.remove(1);
+        	}
+        	tableRow.remove(0);
+        }
+        for(ArrayList<String> s : tableFormat)
+        {
+        	System.out.println(s);
+        }
+    	return null;
     }
-    
+    private String[] getUserReposTopics(String user,String repo)
+    {
+    	RESTQuery topicsQuery=new RESTQuery("https://api.github.com/repos",user,repo,"topics");
+    	topicsQuery.addHeader("Accept","application/vnd.github.mercy-preview+json");
+    	JsonObject topics=topicsQuery.callGETJsonObject();
+    	System.out.println(topics);
+    	JsonArray topicsArray = topics.getJsonArray("name");
+    	if(topicsArray==null || topicsArray.size()==0)
+    	{
+    		return new String[]{""};
+    	}
+    	String[] out=new String[topicsArray.size()];
+    	int i=0;
+    	for(JsonValue value : topicsArray)
+    	{
+    		//value is expected to be string
+    		//check whether it works
+    		out[i++]=value.toString();
+    	}
+    	return out;
+    	
+    }
    /*
     private JsonValue filterJson() throws ParseException
     {

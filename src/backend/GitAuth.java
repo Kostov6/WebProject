@@ -48,7 +48,9 @@ public class GitAuth extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String code=request.getParameter("code");
-		System.out.println("Got code" + code);
+		System.out.println("Got code " + code);
+		
+		
 		
 		System.out.println("Reposting ...");
 		
@@ -71,7 +73,7 @@ public class GitAuth extends HttpServlet {
 		params.add(new BasicNameValuePair("client_id", clientId));
 		params.add(new BasicNameValuePair("client_secret", clientSecret));
 		params.add(new BasicNameValuePair("code", code));
-		params.add(new BasicNameValuePair("state", "hfksj4j3dfvscro"));
+		//params.add(new BasicNameValuePair("state", "hfksj4j3dfvscro"));
 		//params.add(new BasicNameValuePair("redirect_uri ", ""));
 		try {
 			post.setEntity(new UrlEncodedFormEntity(params, "UTF-8"));
@@ -79,9 +81,8 @@ public class GitAuth extends HttpServlet {
 			e.printStackTrace();
 		}
 		
-		
+		System.out.println(post);
 		HttpResponse response;
-<<<<<<< HEAD
 		try {
 			response = defClient.execute(post);
 			HttpEntity entity = response.getEntity();
@@ -102,7 +103,7 @@ public class GitAuth extends HttpServlet {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
-=======
+		}
 		response = defClient.execute(post);
 		HttpEntity entity = response.getEntity();
 		
@@ -115,7 +116,6 @@ public class GitAuth extends HttpServlet {
 			//
 	        br.close();
 
->>>>>>> a2884fa671a409fbeb89f27137dd7fe3a2db5968
 		}
 		
 		System.out.println(inputLine);
