@@ -24,6 +24,9 @@ import backend.core.RESTQuery;
 import backend.core.json.JSONCollector;
 import backend.core.json.JSONFilter;
 import backend.core.json.JSONSchematic;
+import backend.html.HTMLFileBuilder;
+import backend.html.TableBuilder;
+import exceptions.BuildException;
 
 /**
  * Servlet implementation class ThemaTable
@@ -34,8 +37,7 @@ import backend.core.json.JSONSchematic;
 public class ThemaTable extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
-	private static final String[] usernames= {"Keras","tensorflow","scikit-learn"};
-	
+	private static final String[] usernames= {/*"Keras",*/"tensorflow","scikit-learn"};
 	private static JsonArrayBuilder fullJson=Json.createArrayBuilder();
 	
 	private JsonArray filtered;
@@ -128,7 +130,7 @@ public class ThemaTable extends HttpServlet {
     /*	ArrayList<JsonObject> res;
     	res=JSONCollector.collectDataFrom(filtered);
     	System.out.println(res);*/
-tableFormat=new ArrayList<ArrayList<String>>();
+    	tableFormat=new ArrayList<ArrayList<String>>();
         
         ArrayList<String> tableRow=new ArrayList<String>();
         
@@ -210,11 +212,32 @@ tableFormat=new ArrayList<ArrayList<String>>();
     }
     */
    
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args) throws ParseException, BuildException {
     	
     	loadJSONDataFromGit(usernames);
     	
-		new ThemaTable();
+		ThemaTable themas=new ThemaTable();
+		themas.collectData();
+		
+		HTMLFileBuilder htmlFile=new HTMLFileBuilder();
+		
+		htmlFile.setStyleFromFile("style.css");
+		
+		TableBuilder table=new TableBuilder();
+		String[] headers= {"Username","Repo","Thema"};
+		table.setHeaders(headers);
+		
+		for(ArrayList<String> row : themas.tableFormat)
+			table.addDataRow(row.toArray(new String[0]));
+		
+		table.build();
+		
+		htmlFile.addLinesInBody(table.getHTMLLines());
+	
+		htmlFile.build();
+		
+		for(String line : htmlFile.getHTML())
+			System.out.println(line);
 	}
 
     

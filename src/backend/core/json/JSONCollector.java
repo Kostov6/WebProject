@@ -1,7 +1,6 @@
 package backend.core.json;
 
 import java.util.ArrayList;
-import java.util.Set;
 
 import javax.json.Json;
 import javax.json.JsonArray;
