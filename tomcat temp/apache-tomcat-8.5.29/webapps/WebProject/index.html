@@ -2,7 +2,7 @@
 <html>
 	<style>
 	a:link {
-		color: green;
+		color: blue;
 		background-color: transparent;
 		text-decoration: none;
 	}
@@ -21,31 +21,129 @@
 		background-color: transparent;
 		text-decoration: underline;
 	}
+	nav ul {
+	margin:0px;
+	}
+
+	nav ul li {
+	font-size:20px;
+	float: right;
+	display: inline-block;
+	list-style-type:none;
+	padding:5px;
+	margin:5px;
+	color:white;
+	}
+	
+	.nav_leftside{
+		float:left;
+	}
+	
+	.column
+	{
+	    box-sizing: border-box;
+	    float: left;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	
+	.one-forth
+	{
+		width:25%;
+	}
+	
+	.tree-fourths
+	{
+		width:75%;
+		padding-left:20px;
+	}
+	
+	#main{
+		margin-top:50px;
+	}
+	.clear {
+  clear: both;
+  text-align: center;
+  height: 37px;
+  border: 3px dashed pink;
+}
+.clear:after {
+  position: static;
+  content: 'Block sibling with clearance';
+  color: pink;
+}
+}
+
 </style>
 
 	<head>
 		<title>This is title</title>
-		<link rel="stylesheet" type="text/css" href="style.css"> 
 	</head>
-
-	<body>
-		
-		<header> 
-			<h1>AiW</h1>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="getting_started.html">Getting started</a></li>
-					<li><a href="user/advanced.html">Advanced</a></li>
-					<li><a href="login.html">Login</a></li>
-					<li><a href="register.html">Register</a></li>
-					
-				</ul>
-			</nav>
-		</header>	
-		
-		<img width=600 src="http://www.cloudtech.ie/wp-content/uploads/Cloudtech-Logo-Web-Social.png">
-
 	
+	<body>
+		<header> 
+			<h1>AiWorkshop</h1>
+			<img width=600 src="http://www.cloudtech.ie/wp-content/uploads/Cloudtech-Logo-Web-Social.png">
+		
+		
+		</header>	
+		<nav>
+			
+			<ul style="-webkit-padding-start: 20px;">
+				<li class="nav_leftside"><a href="index.html">Home</a></li>
+				<li><a href="getting_started.html">Getting started</a></li>
+				<li><a href="user/advanced.html">Advanced</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="register.html">Register</a></li>
+					
+			</ul>
+		</nav>
+		<div id="main">
+			<hr>
+			<div class="column one-forth" style="border:1px #e1e4e8 solid; margin-top:20px">
+				<a style="display: block; padding:10px; border-bottom: 1px solid #e1e4e8; font-size:20px; color:gray;">Getting started</a>
+				<a style="display: block; padding:10px; border-bottom: 1px solid #e1e4e8; color:gray;">THIS IS TEXT</a>
+				<a style="display: block; padding:10px; border-bottom: 1px solid #e1e4e8; color:gray;">THIS IS TEXT</a>
+				<a style="display: block; padding:10px; border-bottom: 1px solid #e1e4e8; color:gray;">THIS IS TEXT</a>
+				<a style="display: block; padding:10px; border-bottom: 1px solid #e1e4e8; color:gray;">THIS IS TEXT</a>
+			</div>
+			<div class="column tree-fourths">
+			
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+				<h3> column par</p>
+			</div>
+			<div class="clear"></div>
+		</div>
 	</body>
 </html>

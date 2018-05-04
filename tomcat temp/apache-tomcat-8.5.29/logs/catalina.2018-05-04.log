@@ -1,0 +1,1093 @@
+04-May-2018 14:13:11.483 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Realm/Realm} Setting property 'resourceName' to 'MYSQLDatabase' did not find a matching property.
+04-May-2018 14:13:11.488 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Realm/Realm} Setting property 'debug' to '9' did not find a matching property.
+04-May-2018 14:13:11.525 WARNING [main] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+04-May-2018 14:13:11.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.29
+04-May-2018 14:13:11.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 13:11:12 UTC
+04-May-2018 14:13:11.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.29.0
+04-May-2018 14:13:11.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-May-2018 14:13:11.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2018 14:13:11.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2018 14:13:11.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+04-May-2018 14:13:11.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+04-May-2018 14:13:11.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2018 14:13:11.554 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29
+04-May-2018 14:13:11.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29
+04-May-2018 14:13:11.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\conf\logging.properties
+04-May-2018 14:13:11.555 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2018 14:13:11.556 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-May-2018 14:13:11.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-May-2018 14:13:11.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-May-2018 14:13:11.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29
+04-May-2018 14:13:11.559 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29
+04-May-2018 14:13:11.561 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\temp
+04-May-2018 14:13:11.563 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+04-May-2018 14:13:11.563 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+04-May-2018 14:13:11.564 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+04-May-2018 14:13:12.589 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+04-May-2018 14:13:12.825 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2018 14:13:13.048 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-May-2018 14:13:13.060 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+04-May-2018 14:13:13.066 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-May-2018 14:13:13.066 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2144 ms
+04-May-2018 14:13:13.090 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2018 14:13:13.090 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.29
+04-May-2018 14:13:15.331 SEVERE [main] org.apache.catalina.realm.JDBCRealm.startInternal Exception opening database connection
+ com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.catalina.realm.JDBCRealm.open(JDBCRealm.java:670)
+	at org.apache.catalina.realm.JDBCRealm.startInternal(JDBCRealm.java:733)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:928)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 32 more
+
+04-May-2018 14:13:17.135 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:13:17.189 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:13:17.242 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\docs]
+04-May-2018 14:13:17.459 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:13:17.464 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:13:17.470 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\docs] has finished in [227] ms
+04-May-2018 14:13:17.470 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\examples]
+04-May-2018 14:13:18.011 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:13:18.140 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:13:18.254 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\examples] has finished in [784] ms
+04-May-2018 14:13:18.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\host-manager]
+04-May-2018 14:13:18.503 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:13:18.511 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:13:18.518 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\host-manager] has finished in [263] ms
+04-May-2018 14:13:18.519 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\manager]
+04-May-2018 14:13:18.755 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:13:18.764 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:13:18.769 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\manager] has finished in [251] ms
+04-May-2018 14:13:18.769 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject]
+04-May-2018 14:13:20.021 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:13:20.056 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:13:20.065 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject] has finished in [1,296] ms
+04-May-2018 14:13:20.072 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2018 14:13:20.092 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+04-May-2018 14:13:20.102 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7033 ms
+04-May-2018 14:13:30.085 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject-v1.war]
+04-May-2018 14:13:31.615 FINE [localhost-startStop-2] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:13:31.637 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:13:31.648 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject-v1.war] has finished in [1,563] ms
+04-May-2018 14:13:42.154 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject-v1]
+04-May-2018 14:13:42.184 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject-v1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.util.zip.ZipFile.read(Native Method)
+ java.util.zip.ZipFile.access$1400(ZipFile.java:60)
+ java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:734)
+ java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:434)
+ java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+ sun.misc.Resource.getBytes(Resource.java:124)
+ java.net.URLClassLoader.defineClass(URLClassLoader.java:462)
+ java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+ java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+ java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+ java.security.AccessController.doPrivileged(Native Method)
+ java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+ java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+ java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+ org.apache.catalina.webresources.StandardRoot.isPackedWarFile(StandardRoot.java:656)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:96)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:69)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:884)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1005)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 14:13:42.278 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject]
+04-May-2018 14:13:42.306 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+ java.io.File.isFile(File.java:882)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:65)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:101)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:97)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:69)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:884)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1005)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 14:13:42.406 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+04-May-2018 14:13:43.867 FINE [localhost-startStop-3] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:13:43.890 INFO [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:13:43.900 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [1,494] ms
+04-May-2018 14:13:47.186 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 14:13:47.311 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 14:13:57.627 FINE [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/index.html
+04-May-2018 14:13:57.627 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 14:13:57.628 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 14:13:57.629 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 14:13:57.629 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 14:13:57.630 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 14:13:57.630 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 14:13:57.631 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 14:13:57.631 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 14:13:57.631 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 14:13:57.636 FINE [http-nio-8080-exec-4] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\conf\jaspic-providers.xml]
+04-May-2018 14:13:57.656 FINE [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 14:13:57.719 FINE [http-nio-8080-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-May-2018 14:13:57.723 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+04-May-2018 14:13:57.726 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+04-May-2018 14:13:57.727 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+04-May-2018 14:13:57.729 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+04-May-2018 14:13:57.730 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+04-May-2018 14:13:57.731 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+04-May-2018 14:13:57.731 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+04-May-2018 14:13:57.733 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+04-May-2018 14:13:57.734 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 14:13:57.735 FINE [http-nio-8080-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 14:14:00.505 FINE [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/login.html
+04-May-2018 14:14:00.506 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 14:14:00.510 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 14:14:00.511 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 14:14:00.512 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 14:14:00.512 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 14:14:00.512 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 14:14:00.513 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 14:14:00.515 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 14:14:00.516 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 14:14:00.517 FINE [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 14:14:28.031 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+04-May-2018 14:14:28.032 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:14:28.032 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:14:28.032 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:14:28.035 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:14:28.035 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:14:28.036 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:14:28.036 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:14:28.037 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:14:28.038 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 14:14:28.039 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 14:15:52.576 FINE [http-nio-8080-exec-12] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+04-May-2018 14:15:59.251 FINE [http-nio-8080-exec-13] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+04-May-2018 14:16:07.971 FINE [http-nio-8080-exec-14] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+04-May-2018 14:16:13.202 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.203 FINE [http-nio-8080-exec-14] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.204 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.204 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.205 FINE [http-nio-8080-exec-14] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.206 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.207 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.207 FINE [http-nio-8080-exec-14] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.208 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.209 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.210 FINE [http-nio-8080-exec-14] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.214 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.215 FINE [http-nio-8080-exec-14] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.215 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.216 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.217 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.217 FINE [http-nio-8080-exec-14] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.218 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.219 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.219 FINE [http-nio-8080-exec-14] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.220 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.220 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.221 FINE [http-nio-8080-exec-14] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.222 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:13.223 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 14:16:13.223 FINE [http-nio-8080-exec-14] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 14:16:13.226 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 14:16:13.227 FINE [http-nio-8080-exec-12] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 14:16:13.228 FINE [http-nio-8080-exec-14] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 14:16:13.229 FINE [http-nio-8080-exec-13] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 14:16:23.391 FINE [http-nio-8080-exec-15] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+04-May-2018 14:16:23.392 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:23.395 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:23.398 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:23.399 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:23.401 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:23.402 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:23.403 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:23.404 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:16:23.407 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 14:16:23.407 FINE [http-nio-8080-exec-15] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 14:44:05.873 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject]
+04-May-2018 14:44:05.913 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 14:44:06.049 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject-v1.war]
+04-May-2018 14:44:08.305 FINE [localhost-startStop-4] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:44:08.337 INFO [localhost-startStop-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:44:08.346 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject-v1.war] has finished in [2,297] ms
+04-May-2018 14:44:10.916 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 14:44:18.848 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject-v1]
+04-May-2018 14:44:18.925 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject-v1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 14:44:19.099 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+04-May-2018 14:44:21.415 FINE [localhost-startStop-5] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:44:21.437 INFO [localhost-startStop-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:44:21.444 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [2,344] ms
+04-May-2018 14:44:23.926 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 14:44:34.706 FINE [http-nio-8080-exec-20] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/index.html
+04-May-2018 14:44:34.707 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 14:44:34.707 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 14:44:34.708 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 14:44:34.708 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 14:44:34.709 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 14:44:34.709 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 14:44:34.710 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 14:44:34.710 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 14:44:34.711 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 14:44:34.712 FINE [http-nio-8080-exec-20] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 14:44:39.147 FINE [http-nio-8080-exec-15] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+04-May-2018 14:44:39.147 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:44:39.148 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:44:39.148 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:44:39.149 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:44:39.149 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:44:39.150 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:44:39.151 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:44:39.151 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:44:39.151 FINE [http-nio-8080-exec-15] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 14:44:39.152 FINE [http-nio-8080-exec-15] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 14:46:51.564 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject-v1.war]
+04-May-2018 14:46:53.084 FINE [localhost-startStop-6] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:46:53.102 INFO [localhost-startStop-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:46:53.107 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject-v1.war] has finished in [1,543] ms
+04-May-2018 14:47:03.608 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject-v1]
+04-May-2018 14:47:03.651 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject-v1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 14:47:04.223 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject]
+04-May-2018 14:47:04.271 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 14:47:04.343 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebP.war]
+04-May-2018 14:47:05.675 FINE [localhost-startStop-7] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:47:05.694 INFO [localhost-startStop-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:47:05.700 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebP.war] has finished in [1,356] ms
+04-May-2018 14:47:08.653 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 14:47:09.275 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 14:47:16.201 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebP]
+04-May-2018 14:47:16.252 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebP] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+ java.io.File.isDirectory(File.java:849)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:108)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:97)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:69)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:884)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1005)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 14:47:16.342 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+04-May-2018 14:47:18.019 FINE [localhost-startStop-8] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:47:18.044 INFO [localhost-startStop-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:47:18.052 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [1,710] ms
+04-May-2018 14:47:21.253 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 14:47:31.613 FINE [http-nio-8080-exec-16] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+04-May-2018 14:47:31.614 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:47:31.617 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:47:31.618 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:47:31.619 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:47:31.620 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:47:31.622 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:47:31.623 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:47:31.624 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:47:31.625 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 14:47:31.627 FINE [http-nio-8080-exec-16] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 14:49:38.667 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject]
+04-May-2018 14:49:38.715 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.currentThread(Native Method)
+ java.util.concurrent.ThreadPoolExecutor$Worker.tryAcquire(ThreadPoolExecutor.java:638)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:1198)
+ java.util.concurrent.ThreadPoolExecutor$Worker.lock(ThreadPoolExecutor.java:650)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 14:49:38.795 INFO [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+04-May-2018 14:49:40.132 FINE [localhost-startStop-9] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:49:40.154 INFO [localhost-startStop-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:49:40.160 INFO [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [1,365] ms
+04-May-2018 14:49:43.720 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 14:49:43.771 FINE [http-nio-8080-exec-25] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/login.html
+04-May-2018 14:49:43.771 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 14:49:43.773 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 14:49:43.773 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 14:49:43.774 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 14:49:43.774 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 14:49:43.774 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 14:49:43.775 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 14:49:43.775 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 14:49:43.776 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 14:49:43.776 FINE [http-nio-8080-exec-25] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 14:49:45.088 FINE [http-nio-8080-exec-23] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/login.html
+04-May-2018 14:49:45.088 FINE [http-nio-8080-exec-23] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 14:49:45.090 FINE [http-nio-8080-exec-23] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 14:49:45.091 FINE [http-nio-8080-exec-23] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 14:49:45.091 FINE [http-nio-8080-exec-23] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 14:49:45.092 FINE [http-nio-8080-exec-23] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 14:49:45.092 FINE [http-nio-8080-exec-23] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 14:49:45.093 FINE [http-nio-8080-exec-23] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 14:49:45.093 FINE [http-nio-8080-exec-23] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 14:49:45.094 FINE [http-nio-8080-exec-23] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 14:49:45.094 FINE [http-nio-8080-exec-23] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 14:50:50.707 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject]
+04-May-2018 14:50:50.748 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 14:50:50.819 INFO [localhost-startStop-10] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject-v1.war]
+04-May-2018 14:50:52.293 FINE [localhost-startStop-10] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:50:52.311 INFO [localhost-startStop-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:50:52.319 INFO [localhost-startStop-10] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject-v1.war] has finished in [1,500] ms
+04-May-2018 14:50:55.752 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 14:51:02.820 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject-v1]
+04-May-2018 14:51:02.850 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject-v1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+ java.io.File.isFile(File.java:882)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:65)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:101)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:97)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:69)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:884)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1005)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 14:51:02.928 INFO [localhost-startStop-11] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+04-May-2018 14:51:04.275 FINE [localhost-startStop-11] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:51:04.293 INFO [localhost-startStop-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:51:04.299 INFO [localhost-startStop-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [1,371] ms
+04-May-2018 14:51:07.853 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 14:51:09.790 FINE [http-nio-8080-exec-33] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/index.html
+04-May-2018 14:51:09.790 FINE [http-nio-8080-exec-33] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 14:51:09.791 FINE [http-nio-8080-exec-33] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 14:51:09.793 FINE [http-nio-8080-exec-33] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 14:51:09.795 FINE [http-nio-8080-exec-33] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 14:51:09.795 FINE [http-nio-8080-exec-33] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 14:51:09.796 FINE [http-nio-8080-exec-33] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 14:51:09.796 FINE [http-nio-8080-exec-33] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 14:51:09.797 FINE [http-nio-8080-exec-33] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 14:51:09.798 FINE [http-nio-8080-exec-33] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 14:51:09.798 FINE [http-nio-8080-exec-33] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 14:51:44.327 INFO [localhost-startStop-12] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject-v1.war]
+04-May-2018 14:51:45.790 FINE [localhost-startStop-12] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:51:45.810 INFO [localhost-startStop-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:51:45.815 INFO [localhost-startStop-12] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject-v1.war] has finished in [1,488] ms
+04-May-2018 14:51:56.316 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject-v1]
+04-May-2018 14:51:56.360 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject-v1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.util.zip.ZipFile.getEntry(Native Method)
+ java.util.zip.ZipFile.getEntry(ZipFile.java:316)
+ java.util.jar.JarFile.getEntry(JarFile.java:240)
+ java.util.jar.JarFile.getJarEntry(JarFile.java:223)
+ sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1042)
+ sun.misc.URLClassPath.getResource(URLClassPath.java:239)
+ sun.misc.URLClassPath.getResource(URLClassPath.java:292)
+ java.lang.ClassLoader.getBootstrapResource(ClassLoader.java:1264)
+ java.lang.ClassLoader.getResource(ClassLoader.java:1093)
+ org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1198)
+ org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 14:52:01.363 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 14:52:34.851 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Realm/Realm} Setting property 'resourceName' to 'MYSQLDatabase' did not find a matching property.
+04-May-2018 14:52:34.858 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Realm/Realm} Setting property 'debug' to '9' did not find a matching property.
+04-May-2018 14:52:34.899 WARNING [main] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+04-May-2018 14:52:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.29
+04-May-2018 14:52:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 13:11:12 UTC
+04-May-2018 14:52:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.29.0
+04-May-2018 14:52:34.933 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-May-2018 14:52:34.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-May-2018 14:52:34.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-May-2018 14:52:34.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+04-May-2018 14:52:34.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+04-May-2018 14:52:34.936 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-May-2018 14:52:34.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29
+04-May-2018 14:52:34.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29
+04-May-2018 14:52:34.937 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\conf\logging.properties
+04-May-2018 14:52:34.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-May-2018 14:52:34.938 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-May-2018 14:52:34.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-May-2018 14:52:34.940 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-May-2018 14:52:34.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29
+04-May-2018 14:52:34.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29
+04-May-2018 14:52:34.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\temp
+04-May-2018 14:52:34.945 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+04-May-2018 14:52:34.946 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+04-May-2018 14:52:34.947 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+04-May-2018 14:52:35.980 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+04-May-2018 14:52:36.183 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-May-2018 14:52:36.426 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-May-2018 14:52:36.437 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+04-May-2018 14:52:36.447 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-May-2018 14:52:36.448 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2064 ms
+04-May-2018 14:52:36.478 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-May-2018 14:52:36.478 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.29
+04-May-2018 14:52:38.684 SEVERE [main] org.apache.catalina.realm.JDBCRealm.startInternal Exception opening database connection
+ com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.catalina.realm.JDBCRealm.open(JDBCRealm.java:670)
+	at org.apache.catalina.realm.JDBCRealm.startInternal(JDBCRealm.java:733)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:928)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 32 more
+
+04-May-2018 14:52:40.368 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:52:40.426 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:52:40.479 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+04-May-2018 14:52:41.866 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:52:41.905 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:52:41.915 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [1,436] ms
+04-May-2018 14:52:41.917 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\docs]
+04-May-2018 14:52:42.260 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:52:42.269 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:52:42.274 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\docs] has finished in [357] ms
+04-May-2018 14:52:42.276 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\examples]
+04-May-2018 14:52:43.099 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:52:43.252 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:52:43.397 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\examples] has finished in [1,121] ms
+04-May-2018 14:52:43.399 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\host-manager]
+04-May-2018 14:52:43.858 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:52:43.863 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:52:43.867 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\host-manager] has finished in [468] ms
+04-May-2018 14:52:43.868 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\manager]
+04-May-2018 14:52:44.340 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 14:52:44.375 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 14:52:44.394 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\manager] has finished in [526] ms
+04-May-2018 14:52:44.407 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-May-2018 14:52:44.431 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+04-May-2018 14:52:44.443 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7994 ms
+04-May-2018 14:52:59.414 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/login.html
+04-May-2018 14:52:59.415 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 14:52:59.416 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 14:52:59.417 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 14:52:59.417 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 14:52:59.418 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 14:52:59.418 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 14:52:59.419 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 14:52:59.419 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 14:52:59.419 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 14:52:59.425 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\conf\jaspic-providers.xml]
+04-May-2018 14:52:59.448 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 14:53:01.604 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+04-May-2018 14:53:01.605 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:53:01.608 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:53:01.609 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:53:01.610 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:53:01.612 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:53:01.613 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:53:01.614 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 14:53:01.616 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 14:53:01.620 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 14:53:01.621 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 15:03:15.514 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject]
+04-May-2018 15:03:27.268 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+ java.io.File.isFile(File.java:882)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:65)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:101)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:97)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:69)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:884)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1005)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 15:03:27.347 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+04-May-2018 15:03:28.756 FINE [localhost-startStop-2] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 15:03:28.787 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 15:03:28.795 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [1,448] ms
+04-May-2018 15:03:32.274 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 15:03:41.918 FINE [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/index.html
+04-May-2018 15:03:41.919 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 15:03:41.919 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 15:03:41.919 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 15:03:41.919 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 15:03:41.920 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 15:03:41.921 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 15:03:41.921 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 15:03:41.921 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 15:03:41.922 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 15:03:41.924 FINE [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 15:03:43.022 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/login.html
+04-May-2018 15:03:43.023 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 15:03:43.026 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 15:03:43.027 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 15:03:43.028 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 15:03:43.029 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 15:03:43.029 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 15:03:43.030 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 15:03:43.033 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 15:03:43.034 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 15:03:43.036 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 15:03:44.633 FINE [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+04-May-2018 15:03:44.634 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:03:44.637 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:03:44.638 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:03:44.640 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:03:44.641 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:03:44.643 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:03:44.645 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:03:44.649 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:03:44.649 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 15:03:44.650 FINE [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 15:07:29.015 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject-v1.war]
+04-May-2018 15:07:30.982 FINE [localhost-startStop-3] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 15:07:31.005 INFO [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 15:07:31.014 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject-v1.war] has finished in [1,998] ms
+04-May-2018 15:07:41.516 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject-v1]
+04-May-2018 15:07:41.568 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject-v1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.util.zip.ZipFile.getEntry(Native Method)
+ java.util.zip.ZipFile.getEntry(ZipFile.java:316)
+ java.util.jar.JarFile.getEntry(JarFile.java:240)
+ java.util.jar.JarFile.getJarEntry(JarFile.java:223)
+ sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1042)
+ sun.misc.URLClassPath.getResource(URLClassPath.java:239)
+ sun.misc.URLClassPath.getResource(URLClassPath.java:292)
+ java.lang.ClassLoader.getBootstrapResource(ClassLoader.java:1264)
+ java.lang.ClassLoader.getResource(ClassLoader.java:1093)
+ org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1198)
+ org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 15:07:41.649 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject]
+04-May-2018 15:07:41.671 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 15:07:41.740 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+04-May-2018 15:07:43.370 FINE [localhost-startStop-4] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 15:07:43.390 INFO [localhost-startStop-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 15:07:43.398 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [1,658] ms
+04-May-2018 15:07:46.571 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 15:07:46.674 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 15:07:52.912 FINE [http-nio-8080-exec-11] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/login.html
+04-May-2018 15:07:52.913 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 15:07:52.913 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 15:07:52.913 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 15:07:52.914 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 15:07:52.915 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 15:07:52.915 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 15:07:52.916 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 15:07:52.916 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 15:07:52.917 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 15:07:52.917 FINE [http-nio-8080-exec-11] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 15:07:55.149 FINE [http-nio-8080-exec-12] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+04-May-2018 15:07:55.150 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:07:55.153 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:07:55.153 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:07:55.154 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:07:55.155 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:07:55.155 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:07:55.156 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:07:55.157 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:07:55.158 FINE [http-nio-8080-exec-12] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 15:07:55.159 FINE [http-nio-8080-exec-12] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 15:09:23.496 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject]
+04-May-2018 15:09:25.560 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.currentThread(Native Method)
+ java.util.concurrent.ThreadPoolExecutor$Worker.tryAcquire(ThreadPoolExecutor.java:638)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:1198)
+ java.util.concurrent.ThreadPoolExecutor$Worker.lock(ThreadPoolExecutor.java:650)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 15:09:25.633 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+04-May-2018 15:09:26.970 FINE [localhost-startStop-5] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 15:09:26.988 INFO [localhost-startStop-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 15:09:26.995 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [1,362] ms
+04-May-2018 15:09:30.566 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 15:09:43.452 FINE [http-nio-8080-exec-20] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+04-May-2018 15:09:43.452 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:09:43.453 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:09:43.454 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:09:43.454 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:09:43.455 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:09:43.455 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:09:43.456 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:09:43.456 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:09:43.457 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 15:09:43.457 FINE [http-nio-8080-exec-20] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 15:10:47.054 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject]
+04-May-2018 15:10:49.972 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.currentThread(Native Method)
+ java.util.concurrent.ThreadPoolExecutor$Worker.tryAcquire(ThreadPoolExecutor.java:638)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:1198)
+ java.util.concurrent.ThreadPoolExecutor$Worker.lock(ThreadPoolExecutor.java:650)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 15:10:50.049 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+04-May-2018 15:10:51.589 FINE [localhost-startStop-6] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 15:10:51.617 INFO [localhost-startStop-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 15:10:51.629 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [1,580] ms
+04-May-2018 15:10:54.980 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 15:10:56.391 FINE [http-nio-8080-exec-13] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/login.html
+04-May-2018 15:10:56.392 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 15:10:56.393 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 15:10:56.393 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 15:10:56.394 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 15:10:56.395 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 15:10:56.396 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 15:10:56.396 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 15:10:56.397 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 15:10:56.398 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 15:10:56.398 FINE [http-nio-8080-exec-13] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 15:10:58.118 FINE [http-nio-8080-exec-16] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+04-May-2018 15:10:58.120 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:10:58.121 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:10:58.122 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:10:58.123 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:10:58.124 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:10:58.125 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:10:58.125 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:10:58.126 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:10:58.126 FINE [http-nio-8080-exec-16] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 15:10:58.127 FINE [http-nio-8080-exec-16] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 15:16:21.909 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject]
+04-May-2018 15:16:21.955 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ org.apache.catalina.webresources.StandardRoot.isPackedWarFile(StandardRoot.java:656)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:96)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:69)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:884)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1005)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 15:16:22.034 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+04-May-2018 15:16:23.453 FINE [localhost-startStop-7] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 15:16:23.473 INFO [localhost-startStop-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 15:16:23.482 INFO [localhost-startStop-7] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [1,448] ms
+04-May-2018 15:16:26.958 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 15:16:27.069 FINE [http-nio-8080-exec-27] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/index.html
+04-May-2018 15:16:27.070 FINE [http-nio-8080-exec-27] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 15:16:27.072 FINE [http-nio-8080-exec-27] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 15:16:27.073 FINE [http-nio-8080-exec-27] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 15:16:27.073 FINE [http-nio-8080-exec-27] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 15:16:27.073 FINE [http-nio-8080-exec-27] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 15:16:27.074 FINE [http-nio-8080-exec-27] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 15:16:27.074 FINE [http-nio-8080-exec-27] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 15:16:27.074 FINE [http-nio-8080-exec-27] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 15:16:27.075 FINE [http-nio-8080-exec-27] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 15:16:27.076 FINE [http-nio-8080-exec-27] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 15:16:28.835 FINE [http-nio-8080-exec-30] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/login.html
+04-May-2018 15:16:28.835 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 15:16:28.837 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 15:16:28.838 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 15:16:28.838 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 15:16:28.839 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 15:16:28.839 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 15:16:28.839 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+04-May-2018 15:16:28.840 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+04-May-2018 15:16:28.841 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 15:16:28.841 FINE [http-nio-8080-exec-30] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 15:16:30.541 FINE [http-nio-8080-exec-32] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+04-May-2018 15:16:30.542 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:16:30.545 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:16:30.546 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:16:30.547 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:16:30.549 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:16:30.550 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:16:30.550 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:16:30.551 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:16:30.552 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 15:16:30.553 FINE [http-nio-8080-exec-32] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 15:18:14.099 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject]
+04-May-2018 15:18:14.150 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.currentThread(Native Method)
+ java.util.concurrent.ThreadPoolExecutor$Worker.tryAcquire(ThreadPoolExecutor.java:638)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:1198)
+ java.util.concurrent.ThreadPoolExecutor$Worker.lock(ThreadPoolExecutor.java:650)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 15:18:14.229 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject-v1.war]
+04-May-2018 15:18:15.580 FINE [localhost-startStop-8] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 15:18:15.600 INFO [localhost-startStop-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 15:18:15.606 INFO [localhost-startStop-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject-v1.war] has finished in [1,377] ms
+04-May-2018 15:18:19.157 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 15:18:26.108 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject-v1]
+04-May-2018 15:18:26.140 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject-v1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+04-May-2018 15:18:26.216 INFO [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+04-May-2018 15:18:27.154 FINE [http-nio-8080-exec-26] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+04-May-2018 15:18:27.158 FINE [http-nio-8080-exec-26] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /WebProject/GitAuth --> false
+04-May-2018 15:18:27.160 FINE [http-nio-8080-exec-26] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /WebProject/GitAuth --> false
+04-May-2018 15:18:27.167 FINE [http-nio-8080-exec-26] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /WebProject/GitAuth --> false
+04-May-2018 15:18:27.168 FINE [http-nio-8080-exec-26] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /WebProject/GitAuth --> false
+04-May-2018 15:18:27.169 FINE [http-nio-8080-exec-26] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /WebProject/GitAuth --> false
+04-May-2018 15:18:27.170 FINE [http-nio-8080-exec-26] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /WebProject/GitAuth --> false
+04-May-2018 15:18:27.170 FINE [http-nio-8080-exec-26] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /WebProject/GitAuth --> false
+04-May-2018 15:18:27.170 FINE [http-nio-8080-exec-26] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /WebProject/GitAuth --> false
+04-May-2018 15:18:27.171 FINE [http-nio-8080-exec-26] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 15:18:27.172 FINE [http-nio-8080-exec-26] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 15:18:27.687 FINE [localhost-startStop-9] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+04-May-2018 15:18:27.706 INFO [localhost-startStop-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+04-May-2018 15:18:27.711 INFO [localhost-startStop-9] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [1,495] ms
+04-May-2018 15:18:31.143 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+04-May-2018 15:18:46.922 FINE [http-nio-8080-exec-29] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+04-May-2018 15:18:46.923 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:18:46.925 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:18:46.926 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:18:46.927 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:18:46.928 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:18:46.929 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:18:46.930 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+04-May-2018 15:18:46.931 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+04-May-2018 15:18:46.931 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 15:18:46.932 FINE [http-nio-8080-exec-29] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 15:29:00.688 FINE [http-nio-8080-exec-37] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/index.html
+04-May-2018 15:29:00.689 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 15:29:00.689 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 15:29:00.689 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 15:29:00.690 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 15:29:00.690 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 15:29:00.690 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 15:29:00.690 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+04-May-2018 15:29:00.691 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+04-May-2018 15:29:00.691 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 15:29:00.691 FINE [http-nio-8080-exec-37] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 15:29:00.760 FINE [http-nio-8080-exec-38] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+04-May-2018 15:29:00.767 FINE [http-nio-8080-exec-38] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+04-May-2018 15:29:00.768 FINE [http-nio-8080-exec-38] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+04-May-2018 15:29:00.769 FINE [http-nio-8080-exec-38] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+04-May-2018 15:29:00.772 FINE [http-nio-8080-exec-38] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+04-May-2018 15:29:00.774 FINE [http-nio-8080-exec-38] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+04-May-2018 15:29:00.774 FINE [http-nio-8080-exec-38] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+04-May-2018 15:29:00.774 FINE [http-nio-8080-exec-38] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+04-May-2018 15:29:00.775 FINE [http-nio-8080-exec-38] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+04-May-2018 15:29:00.775 FINE [http-nio-8080-exec-38] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 15:29:00.775 FINE [http-nio-8080-exec-38] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+04-May-2018 15:29:08.515 FINE [http-nio-8080-exec-39] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/user/advanced.html
+04-May-2018 15:29:08.516 FINE [http-nio-8080-exec-39] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+04-May-2018 15:29:08.516 FINE [http-nio-8080-exec-39] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+04-May-2018 15:29:08.516 FINE [http-nio-8080-exec-39] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+04-May-2018 15:29:08.517 FINE [http-nio-8080-exec-39] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+04-May-2018 15:29:08.517 FINE [http-nio-8080-exec-39] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling hasUserDataPermission()
+04-May-2018 15:29:08.518 FINE [http-nio-8080-exec-39] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+04-May-2018 15:29:08.518 FINE [http-nio-8080-exec-39] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling authenticate()
+04-May-2018 15:29:08.524 FINE [http-nio-8080-exec-39] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session 'A3BD0EC1ED5F60A72B12C66B07408E44'
+04-May-2018 15:29:08.527 FINE [http-nio-8080-exec-39] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/WebProject/user/advanced.html] made with method [GET] to login page [/login.html] of context [/WebProject] using request method GET
+04-May-2018 15:29:08.535 FINE [http-nio-8080-exec-39] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Failed authenticate() test
+04-May-2018 15:29:11.245 FINE [http-nio-8080-exec-40] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/getting_started.html
+04-May-2018 15:29:11.246 FINE [http-nio-8080-exec-40] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /getting_started.html --> false
+04-May-2018 15:29:11.249 FINE [http-nio-8080-exec-40] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /getting_started.html --> false
+04-May-2018 15:29:11.250 FINE [http-nio-8080-exec-40] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /getting_started.html --> false
+04-May-2018 15:29:11.250 FINE [http-nio-8080-exec-40] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /getting_started.html --> false
+04-May-2018 15:29:11.251 FINE [http-nio-8080-exec-40] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /getting_started.html --> false
+04-May-2018 15:29:11.251 FINE [http-nio-8080-exec-40] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /getting_started.html --> false
+04-May-2018 15:29:11.252 FINE [http-nio-8080-exec-40] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /getting_started.html --> false
+04-May-2018 15:29:11.252 FINE [http-nio-8080-exec-40] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /getting_started.html --> false
+04-May-2018 15:29:11.253 FINE [http-nio-8080-exec-40] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+04-May-2018 15:29:11.254 FINE [http-nio-8080-exec-40] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint

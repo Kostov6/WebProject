@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,6 +23,7 @@ import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
@@ -54,7 +57,12 @@ public class GitAuth extends HttpServlet {
 		
 		System.out.println("Reposting ...");
 		
-		String access_token=repostAndGetToken(code,CLIENT_ID,CLIENT_SECRET);
+		try {
+			String access_token=repostAndGetToken(code,CLIENT_ID,CLIENT_SECRET);
+		} catch (URISyntaxException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 	}
 	
@@ -63,10 +71,11 @@ public class GitAuth extends HttpServlet {
 		return null;
 	}
 	
-	private String repostAndGetToken(String code,String clientId,String clientSecret) throws IOException
+	private String repostAndGetToken(String code,String clientId,String clientSecret) throws IOException, URISyntaxException
 	{
 		CloseableHttpClient defClient=HttpClients.createDefault();
 		HttpPost post=new HttpPost("https://github.com/login/oauth/access_token");
+	
 		
 		//setting parameters for post method
 		List<NameValuePair> params = new ArrayList<NameValuePair>(2);
@@ -75,36 +84,16 @@ public class GitAuth extends HttpServlet {
 		params.add(new BasicNameValuePair("code", code));
 		//params.add(new BasicNameValuePair("state", "hfksj4j3dfvscro"));
 		//params.add(new BasicNameValuePair("redirect_uri ", ""));
-		try {
-			post.setEntity(new UrlEncodedFormEntity(params, "UTF-8"));
-		} catch (UnsupportedEncodingException e) {
-			e.printStackTrace();
-		}
+
+		post.setHeader("Accept", "application/json");
+		URI uri = new URIBuilder(post.getURI()).addParameters(params).build();
+        post.setURI(uri);
 		
 		System.out.println(post);
-		HttpResponse response;
-		try {
-			response = defClient.execute(post);
-			HttpEntity entity = response.getEntity();
-			
-			if (entity != null) {
-				   String inputLine ;
-				   BufferedReader br = new BufferedReader(new InputStreamReader(entity.getContent()));
-				   try {
-				         while ((inputLine = br.readLine()) != null) {
-				                System.out.println(inputLine);
-				         }
-				         br.close();
-				    } catch (IOException e) {
-				         e.printStackTrace();
-				    }
-			}
-		} catch (ClientProtocolException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		HttpResponse response=null;
+
 		response = defClient.execute(post);
+
 		HttpEntity entity = response.getEntity();
 		
 		String inputLine = null ;
@@ -119,17 +108,17 @@ public class GitAuth extends HttpServlet {
 		}
 		
 		System.out.println(inputLine);
-		System.out.println("Trimming:");
+		/*System.out.println("Trimming:");
 		
 		String processed=inputLine.split("&")[0];
 		System.out.println(processed);
 		
 		processed=processed.split("=")[1];
 		System.out.println(processed);
-		
+		*/
 		defClient.close();
 
-		return processed;
+		return null;
 	}
 
 	/**
