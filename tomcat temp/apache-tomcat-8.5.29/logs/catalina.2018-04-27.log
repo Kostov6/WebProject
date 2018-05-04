@@ -1,0 +1,690 @@
+27-Apr-2018 15:56:16.927 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Realm/Realm} Setting property 'resourceName' to 'MYSQLDatabase' did not find a matching property.
+27-Apr-2018 15:56:16.931 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Realm/Realm} Setting property 'debug' to '9' did not find a matching property.
+27-Apr-2018 15:56:16.973 WARNING [main] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+27-Apr-2018 15:56:17.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.29
+27-Apr-2018 15:56:17.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 13:11:12 UTC
+27-Apr-2018 15:56:17.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.29.0
+27-Apr-2018 15:56:17.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Apr-2018 15:56:17.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Apr-2018 15:56:17.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Apr-2018 15:56:17.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+27-Apr-2018 15:56:17.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+27-Apr-2018 15:56:17.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Apr-2018 15:56:17.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29
+27-Apr-2018 15:56:17.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29
+27-Apr-2018 15:56:17.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\conf\logging.properties
+27-Apr-2018 15:56:17.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Apr-2018 15:56:17.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Apr-2018 15:56:17.009 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Apr-2018 15:56:17.010 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Apr-2018 15:56:17.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29
+27-Apr-2018 15:56:17.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29
+27-Apr-2018 15:56:17.014 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\temp
+27-Apr-2018 15:56:17.015 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+27-Apr-2018 15:56:17.015 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+27-Apr-2018 15:56:17.016 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Apr-2018 15:56:18.071 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+27-Apr-2018 15:56:18.270 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Apr-2018 15:56:18.487 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Apr-2018 15:56:18.499 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Apr-2018 15:56:18.504 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Apr-2018 15:56:18.505 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2236 ms
+27-Apr-2018 15:56:18.527 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Apr-2018 15:56:18.527 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.29
+27-Apr-2018 15:56:20.765 SEVERE [main] org.apache.catalina.realm.JDBCRealm.startInternal Exception opening database connection
+ com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.catalina.realm.JDBCRealm.open(JDBCRealm.java:670)
+	at org.apache.catalina.realm.JDBCRealm.startInternal(JDBCRealm.java:733)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:928)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:681)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 32 more
+
+27-Apr-2018 15:56:22.644 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+27-Apr-2018 15:56:22.718 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2018 15:56:22.781 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+27-Apr-2018 15:56:22.787 INFO [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject] was found with a last modified time that did not match the associated WAR. It will be deleted.
+27-Apr-2018 15:56:24.980 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+27-Apr-2018 15:56:25.031 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2018 15:56:25.047 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [2,265] ms
+27-Apr-2018 15:56:25.048 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\docs]
+27-Apr-2018 15:56:25.394 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+27-Apr-2018 15:56:25.412 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2018 15:56:25.419 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\docs] has finished in [371] ms
+27-Apr-2018 15:56:25.425 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\examples]
+27-Apr-2018 15:56:26.249 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+27-Apr-2018 15:56:26.432 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2018 15:56:26.734 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\examples] has finished in [1,309] ms
+27-Apr-2018 15:56:26.740 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\host-manager]
+27-Apr-2018 15:56:27.041 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+27-Apr-2018 15:56:27.056 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2018 15:56:27.067 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\host-manager] has finished in [327] ms
+27-Apr-2018 15:56:27.072 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\manager]
+27-Apr-2018 15:56:27.498 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+27-Apr-2018 15:56:27.517 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2018 15:56:27.529 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\manager] has finished in [458] ms
+27-Apr-2018 15:56:27.543 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+27-Apr-2018 15:56:27.568 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+27-Apr-2018 15:56:27.592 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 9086 ms
+27-Apr-2018 15:59:36.317 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/index.html
+27-Apr-2018 15:59:36.317 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 15:59:36.318 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 15:59:36.318 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 15:59:36.318 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 15:59:36.318 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 15:59:36.319 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 15:59:36.320 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 15:59:36.320 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 15:59:36.320 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 15:59:36.325 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\conf\jaspic-providers.xml]
+27-Apr-2018 15:59:36.342 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 15:59:36.374 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/style.css
+27-Apr-2018 15:59:36.375 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 15:59:36.376 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 15:59:36.376 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 15:59:36.376 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 15:59:36.377 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 15:59:36.377 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 15:59:36.379 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 15:59:36.379 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 15:59:36.380 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 15:59:36.380 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 15:59:36.596 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+27-Apr-2018 15:59:36.599 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+27-Apr-2018 15:59:36.600 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+27-Apr-2018 15:59:36.601 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+27-Apr-2018 15:59:36.601 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+27-Apr-2018 15:59:36.602 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+27-Apr-2018 15:59:36.603 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+27-Apr-2018 15:59:36.603 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+27-Apr-2018 15:59:36.604 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+27-Apr-2018 15:59:36.604 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 15:59:36.605 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 15:59:38.949 FINE [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/style.css
+27-Apr-2018 15:59:38.950 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 15:59:38.952 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 15:59:38.952 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 15:59:38.953 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 15:59:38.953 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 15:59:38.954 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 15:59:38.954 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 15:59:38.955 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 15:59:38.955 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 15:59:38.956 FINE [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 15:59:40.394 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/getting_started.html
+27-Apr-2018 15:59:40.394 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /getting_started.html --> false
+27-Apr-2018 15:59:40.395 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /getting_started.html --> false
+27-Apr-2018 15:59:40.396 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /getting_started.html --> false
+27-Apr-2018 15:59:40.397 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /getting_started.html --> false
+27-Apr-2018 15:59:40.397 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /getting_started.html --> false
+27-Apr-2018 15:59:40.398 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /getting_started.html --> false
+27-Apr-2018 15:59:40.398 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /getting_started.html --> false
+27-Apr-2018 15:59:40.399 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /getting_started.html --> false
+27-Apr-2018 15:59:40.399 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 15:59:40.399 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 15:59:43.049 FINE [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/user/advanced.html
+27-Apr-2018 15:59:43.049 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+27-Apr-2018 15:59:43.051 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+27-Apr-2018 15:59:43.051 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+27-Apr-2018 15:59:43.052 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+27-Apr-2018 15:59:43.053 FINE [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling hasUserDataPermission()
+27-Apr-2018 15:59:43.054 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+27-Apr-2018 15:59:43.055 FINE [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling authenticate()
+27-Apr-2018 15:59:43.069 FINE [http-nio-8080-exec-6] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session '2B05289AC5BC84D41DDFC9BE56CA3A6A'
+27-Apr-2018 15:59:43.071 FINE [http-nio-8080-exec-6] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/WebProject/user/advanced.html] made with method [GET] to login page [/login.html] of context [/WebProject] using request method GET
+27-Apr-2018 15:59:43.107 FINE [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Failed authenticate() test
+27-Apr-2018 16:00:08.335 FINE [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+27-Apr-2018 16:00:08.337 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:00:08.338 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:00:08.340 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:00:08.342 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:00:08.342 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:00:08.344 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:00:08.345 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:00:08.347 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:00:08.348 FINE [http-nio-8080-exec-8] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:00:08.350 FINE [http-nio-8080-exec-8] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:00:24.746 FINE [http-nio-8080-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/index.html
+27-Apr-2018 16:00:24.747 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:00:24.748 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:00:24.748 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:00:24.749 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:00:24.749 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:00:24.750 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:00:24.750 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:00:24.751 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:00:24.751 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:00:24.751 FINE [http-nio-8080-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:00:24.782 FINE [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/style.css
+27-Apr-2018 16:00:24.782 FINE [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:00:24.783 FINE [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:00:24.783 FINE [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:00:24.784 FINE [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:00:24.784 FINE [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:00:24.785 FINE [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:00:24.785 FINE [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:00:24.786 FINE [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:00:24.788 FINE [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:00:24.789 FINE [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:00:55.860 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/user/advanced.html
+27-Apr-2018 16:00:55.861 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+27-Apr-2018 16:00:55.864 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+27-Apr-2018 16:00:55.864 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+27-Apr-2018 16:00:55.865 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+27-Apr-2018 16:00:55.865 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling hasUserDataPermission()
+27-Apr-2018 16:00:55.865 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+27-Apr-2018 16:00:55.866 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling authenticate()
+27-Apr-2018 16:00:55.866 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session 'BB71EC979620066749BBD6EA56922E0C'
+27-Apr-2018 16:00:55.869 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/WebProject/user/advanced.html] made with method [GET] to login page [/login.html] of context [/WebProject] using request method GET
+27-Apr-2018 16:00:55.873 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Failed authenticate() test
+27-Apr-2018 16:01:04.128 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+27-Apr-2018 16:01:04.128 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:01:04.132 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:01:04.135 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:01:04.136 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:01:04.136 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:01:04.137 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:01:04.139 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:01:04.141 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:01:04.141 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:01:04.142 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:10:02.667 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+27-Apr-2018 16:10:02.667 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:10:02.669 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:10:02.669 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:10:02.670 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:10:02.670 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:10:02.671 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:10:02.671 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:10:02.671 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:10:02.672 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:10:02.673 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:12:43.040 FINE [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+27-Apr-2018 16:12:43.041 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:12:43.041 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:12:43.041 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:12:43.042 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:12:43.042 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:12:43.043 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:12:43.043 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:12:43.044 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:12:43.044 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:12:43.044 FINE [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:15:10.068 FINE [http-nio-8080-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+27-Apr-2018 16:15:10.068 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:15:10.070 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:15:10.070 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:15:10.071 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:15:10.071 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:15:10.072 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:15:10.072 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:15:10.073 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:15:10.073 FINE [http-nio-8080-exec-9] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:15:10.073 FINE [http-nio-8080-exec-9] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:15:33.329 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/index.html
+27-Apr-2018 16:15:33.329 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:15:33.330 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:15:33.331 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:15:33.332 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:15:33.332 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:15:33.333 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:15:33.333 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:15:33.334 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:15:33.335 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:15:33.335 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:15:33.361 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/style.css
+27-Apr-2018 16:15:33.361 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:15:33.362 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:15:33.362 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:15:33.363 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:15:33.363 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:15:33.364 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:15:33.365 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:15:33.366 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:15:33.366 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:15:33.367 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:15:35.514 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/user/advanced.html
+27-Apr-2018 16:15:35.514 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+27-Apr-2018 16:15:35.515 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+27-Apr-2018 16:15:35.516 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+27-Apr-2018 16:15:35.516 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+27-Apr-2018 16:15:35.517 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling hasUserDataPermission()
+27-Apr-2018 16:15:35.519 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+27-Apr-2018 16:15:35.521 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling authenticate()
+27-Apr-2018 16:15:35.521 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session 'A2B3CF474710BF0E51F11CD11ADEF88F'
+27-Apr-2018 16:15:35.523 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/WebProject/user/advanced.html] made with method [GET] to login page [/login.html] of context [/WebProject] using request method GET
+27-Apr-2018 16:15:35.527 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Failed authenticate() test
+27-Apr-2018 16:15:36.883 FINE [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+27-Apr-2018 16:15:36.886 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:15:36.892 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:15:36.893 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:15:36.894 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:15:36.894 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:15:36.896 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:15:36.896 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:15:36.897 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:15:36.897 FINE [http-nio-8080-exec-4] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:15:36.897 FINE [http-nio-8080-exec-4] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:20:38.748 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject]
+27-Apr-2018 16:20:38.793 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+ java.io.File.isFile(File.java:882)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:65)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:101)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:97)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:69)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:884)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1005)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+27-Apr-2018 16:20:38.894 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+27-Apr-2018 16:20:40.473 FINE [localhost-startStop-2] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+27-Apr-2018 16:20:40.493 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2018 16:20:40.501 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [1,607] ms
+27-Apr-2018 16:20:43.797 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+27-Apr-2018 16:21:35.987 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/user/advanced.html
+27-Apr-2018 16:21:35.988 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+27-Apr-2018 16:21:35.989 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+27-Apr-2018 16:21:35.990 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+27-Apr-2018 16:21:35.990 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+27-Apr-2018 16:21:35.991 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling hasUserDataPermission()
+27-Apr-2018 16:21:35.991 FINE [http-nio-8080-exec-3] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+27-Apr-2018 16:21:35.992 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling authenticate()
+27-Apr-2018 16:21:35.993 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session 'D4DF97CD706EC9C6E7AF895721C8C779'
+27-Apr-2018 16:21:35.994 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/WebProject/user/advanced.html] made with method [GET] to login page [/login.html] of context [/WebProject] using request method GET
+27-Apr-2018 16:21:35.998 FINE [http-nio-8080-exec-3] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Failed authenticate() test
+27-Apr-2018 16:21:45.131 FINE [http-nio-8080-exec-11] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/index.html
+27-Apr-2018 16:21:45.132 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:21:45.133 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:21:45.134 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:21:45.134 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:21:45.135 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:21:45.135 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:21:45.136 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:21:45.136 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:21:45.137 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:21:45.137 FINE [http-nio-8080-exec-11] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:21:45.166 FINE [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/style.css
+27-Apr-2018 16:21:45.167 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:21:45.168 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:21:45.168 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:21:45.169 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:21:45.169 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:21:45.170 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:21:45.170 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:21:45.170 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:21:45.171 FINE [http-nio-8080-exec-6] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:21:45.171 FINE [http-nio-8080-exec-6] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:21:46.234 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/user/advanced.html
+27-Apr-2018 16:21:46.234 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+27-Apr-2018 16:21:46.235 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+27-Apr-2018 16:21:46.236 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+27-Apr-2018 16:21:46.237 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+27-Apr-2018 16:21:46.237 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling hasUserDataPermission()
+27-Apr-2018 16:21:46.238 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+27-Apr-2018 16:21:46.238 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling authenticate()
+27-Apr-2018 16:21:46.239 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session '3F20539CEE9566024EEE6E050A8CE98A'
+27-Apr-2018 16:21:46.240 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/WebProject/user/advanced.html] made with method [GET] to login page [/login.html] of context [/WebProject] using request method GET
+27-Apr-2018 16:21:46.242 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Failed authenticate() test
+27-Apr-2018 16:21:48.072 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+27-Apr-2018 16:21:48.072 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:21:48.075 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:21:48.076 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:21:48.078 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:21:48.079 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:21:48.080 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:21:48.082 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:21:48.085 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:21:48.085 FINE [http-nio-8080-exec-2] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:21:48.086 FINE [http-nio-8080-exec-2] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:26:50.823 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject]
+27-Apr-2018 16:26:50.872 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+27-Apr-2018 16:26:50.946 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+27-Apr-2018 16:26:52.412 FINE [localhost-startStop-3] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+27-Apr-2018 16:26:52.437 INFO [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2018 16:26:52.443 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [1,498] ms
+27-Apr-2018 16:26:55.880 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+27-Apr-2018 16:27:05.873 FINE [http-nio-8080-exec-18] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/index.html
+27-Apr-2018 16:27:05.878 FINE [http-nio-8080-exec-18] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:27:05.878 FINE [http-nio-8080-exec-18] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:27:05.879 FINE [http-nio-8080-exec-18] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:27:05.879 FINE [http-nio-8080-exec-18] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:27:05.879 FINE [http-nio-8080-exec-18] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:27:05.879 FINE [http-nio-8080-exec-18] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:27:05.879 FINE [http-nio-8080-exec-18] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:27:05.880 FINE [http-nio-8080-exec-18] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:27:05.880 FINE [http-nio-8080-exec-18] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:27:05.880 FINE [http-nio-8080-exec-18] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:27:05.903 FINE [http-nio-8080-exec-20] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/style.css
+27-Apr-2018 16:27:05.903 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:27:05.905 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:27:05.906 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:27:05.906 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:27:05.907 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:27:05.907 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:27:05.908 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:27:05.908 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:27:05.909 FINE [http-nio-8080-exec-20] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:27:05.909 FINE [http-nio-8080-exec-20] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:27:07.133 FINE [http-nio-8080-exec-13] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/user/advanced.html
+27-Apr-2018 16:27:07.134 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+27-Apr-2018 16:27:07.135 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+27-Apr-2018 16:27:07.135 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+27-Apr-2018 16:27:07.137 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+27-Apr-2018 16:27:07.138 FINE [http-nio-8080-exec-13] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling hasUserDataPermission()
+27-Apr-2018 16:27:07.138 FINE [http-nio-8080-exec-13] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+27-Apr-2018 16:27:07.139 FINE [http-nio-8080-exec-13] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling authenticate()
+27-Apr-2018 16:27:07.140 FINE [http-nio-8080-exec-13] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session '9E7D51A86D08A5CC88BAFEF71CA1A703'
+27-Apr-2018 16:27:07.141 FINE [http-nio-8080-exec-13] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/WebProject/user/advanced.html] made with method [GET] to login page [/login.html] of context [/WebProject] using request method GET
+27-Apr-2018 16:27:07.144 FINE [http-nio-8080-exec-13] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Failed authenticate() test
+27-Apr-2018 16:27:08.897 FINE [http-nio-8080-exec-11] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+27-Apr-2018 16:27:08.897 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:27:08.899 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:27:08.899 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:27:08.900 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:27:08.900 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:27:08.900 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:27:08.901 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:27:08.901 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:27:08.902 FINE [http-nio-8080-exec-11] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:27:08.902 FINE [http-nio-8080-exec-11] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:31:13.152 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject]
+27-Apr-2018 16:31:13.202 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+27-Apr-2018 16:31:13.289 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject-v1.war]
+27-Apr-2018 16:31:14.674 FINE [localhost-startStop-4] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+27-Apr-2018 16:31:14.694 INFO [localhost-startStop-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2018 16:31:14.701 INFO [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject-v1.war] has finished in [1,413] ms
+27-Apr-2018 16:31:18.211 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+27-Apr-2018 16:31:25.203 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject-v1]
+27-Apr-2018 16:31:25.257 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject-v1] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+ java.io.File.isFile(File.java:882)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:65)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:101)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:97)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:69)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:884)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1005)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+27-Apr-2018 16:31:25.358 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+27-Apr-2018 16:31:26.746 FINE [localhost-startStop-5] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+27-Apr-2018 16:31:26.763 INFO [localhost-startStop-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2018 16:31:26.768 INFO [localhost-startStop-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [1,410] ms
+27-Apr-2018 16:31:30.259 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+27-Apr-2018 16:31:46.831 FINE [http-nio-8080-exec-25] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/login.html
+27-Apr-2018 16:31:46.832 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+27-Apr-2018 16:31:46.833 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+27-Apr-2018 16:31:46.833 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+27-Apr-2018 16:31:46.834 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+27-Apr-2018 16:31:46.834 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+27-Apr-2018 16:31:46.835 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+27-Apr-2018 16:31:46.835 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /login.html --> false
+27-Apr-2018 16:31:46.836 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /login.html --> false
+27-Apr-2018 16:31:46.836 FINE [http-nio-8080-exec-25] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:31:46.837 FINE [http-nio-8080-exec-25] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:33:20.019 FINE [http-nio-8080-exec-32] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/index.html
+27-Apr-2018 16:33:20.020 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:33:20.020 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:33:20.020 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:33:20.020 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:33:20.021 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:33:20.021 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:33:20.021 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:33:20.022 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:33:20.022 FINE [http-nio-8080-exec-32] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:33:20.022 FINE [http-nio-8080-exec-32] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:33:20.051 FINE [http-nio-8080-exec-29] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/style.css
+27-Apr-2018 16:33:20.053 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:33:20.053 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:33:20.054 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:33:20.054 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:33:20.054 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:33:20.054 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:33:20.054 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:33:20.055 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:33:20.055 FINE [http-nio-8080-exec-29] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:33:20.055 FINE [http-nio-8080-exec-29] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:33:20.075 FINE [http-nio-8080-exec-30] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+27-Apr-2018 16:33:20.075 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+27-Apr-2018 16:33:20.075 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+27-Apr-2018 16:33:20.076 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+27-Apr-2018 16:33:20.076 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+27-Apr-2018 16:33:20.076 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+27-Apr-2018 16:33:20.081 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+27-Apr-2018 16:33:20.082 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+27-Apr-2018 16:33:20.082 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+27-Apr-2018 16:33:20.083 FINE [http-nio-8080-exec-30] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:33:20.083 FINE [http-nio-8080-exec-30] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:33:21.244 FINE [http-nio-8080-exec-28] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/user/advanced.html
+27-Apr-2018 16:33:21.245 FINE [http-nio-8080-exec-28] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+27-Apr-2018 16:33:21.246 FINE [http-nio-8080-exec-28] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+27-Apr-2018 16:33:21.246 FINE [http-nio-8080-exec-28] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+27-Apr-2018 16:33:21.247 FINE [http-nio-8080-exec-28] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+27-Apr-2018 16:33:21.247 FINE [http-nio-8080-exec-28] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling hasUserDataPermission()
+27-Apr-2018 16:33:21.247 FINE [http-nio-8080-exec-28] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+27-Apr-2018 16:33:21.248 FINE [http-nio-8080-exec-28] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling authenticate()
+27-Apr-2018 16:33:21.248 FINE [http-nio-8080-exec-28] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session '39242DB3BB1D4670EAE69E55D4FE52D8'
+27-Apr-2018 16:33:21.249 FINE [http-nio-8080-exec-28] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/WebProject/user/advanced.html] made with method [GET] to login page [/login.html] of context [/WebProject] using request method GET
+27-Apr-2018 16:33:21.252 FINE [http-nio-8080-exec-28] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Failed authenticate() test
+27-Apr-2018 16:33:23.331 FINE [http-nio-8080-exec-22] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+27-Apr-2018 16:33:23.331 FINE [http-nio-8080-exec-22] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:33:23.331 FINE [http-nio-8080-exec-22] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:33:23.333 FINE [http-nio-8080-exec-22] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:33:23.333 FINE [http-nio-8080-exec-22] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:33:23.333 FINE [http-nio-8080-exec-22] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:33:23.333 FINE [http-nio-8080-exec-22] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:33:23.333 FINE [http-nio-8080-exec-22] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:33:23.334 FINE [http-nio-8080-exec-22] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:33:23.334 FINE [http-nio-8080-exec-22] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:33:23.334 FINE [http-nio-8080-exec-22] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:38:37.593 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject]
+27-Apr-2018 16:38:37.631 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.io.WinNTFileSystem.canonicalize0(Native Method)
+ java.io.WinNTFileSystem.canonicalize(WinNTFileSystem.java:428)
+ java.io.File.getCanonicalPath(File.java:618)
+ org.apache.catalina.webresources.AbstractFileResourceSet.file(AbstractFileResourceSet.java:90)
+ org.apache.catalina.webresources.DirResourceSet.getResource(DirResourceSet.java:101)
+ org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:97)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:69)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:884)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1005)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+27-Apr-2018 16:38:37.772 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+27-Apr-2018 16:38:39.960 FINE [localhost-startStop-6] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+27-Apr-2018 16:38:40.000 INFO [localhost-startStop-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2018 16:38:40.011 INFO [localhost-startStop-6] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\eclipse-jee-oxygen-3a-win32-x86_64\EEWorkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [2,239] ms
+27-Apr-2018 16:38:42.635 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+27-Apr-2018 16:39:07.424 FINE [http-nio-8080-exec-39] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/index.html
+27-Apr-2018 16:39:07.432 FINE [http-nio-8080-exec-39] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:39:07.436 FINE [http-nio-8080-exec-39] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:39:07.437 FINE [http-nio-8080-exec-39] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:39:07.437 FINE [http-nio-8080-exec-39] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:39:07.438 FINE [http-nio-8080-exec-39] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:39:07.438 FINE [http-nio-8080-exec-39] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:39:07.438 FINE [http-nio-8080-exec-39] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+27-Apr-2018 16:39:07.439 FINE [http-nio-8080-exec-39] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+27-Apr-2018 16:39:07.439 FINE [http-nio-8080-exec-39] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:39:07.440 FINE [http-nio-8080-exec-39] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:39:07.486 FINE [http-nio-8080-exec-34] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/style.css
+27-Apr-2018 16:39:07.489 FINE [http-nio-8080-exec-34] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:39:07.490 FINE [http-nio-8080-exec-34] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:39:07.491 FINE [http-nio-8080-exec-34] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:39:07.492 FINE [http-nio-8080-exec-34] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:39:07.492 FINE [http-nio-8080-exec-34] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:39:07.493 FINE [http-nio-8080-exec-34] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:39:07.493 FINE [http-nio-8080-exec-34] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /style.css --> false
+27-Apr-2018 16:39:07.494 FINE [http-nio-8080-exec-34] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /style.css --> false
+27-Apr-2018 16:39:07.494 FINE [http-nio-8080-exec-34] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:39:07.495 FINE [http-nio-8080-exec-34] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:39:07.522 FINE [http-nio-8080-exec-35] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+27-Apr-2018 16:39:07.527 FINE [http-nio-8080-exec-35] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+27-Apr-2018 16:39:07.529 FINE [http-nio-8080-exec-35] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+27-Apr-2018 16:39:07.531 FINE [http-nio-8080-exec-35] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+27-Apr-2018 16:39:07.533 FINE [http-nio-8080-exec-35] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+27-Apr-2018 16:39:07.536 FINE [http-nio-8080-exec-35] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+27-Apr-2018 16:39:07.537 FINE [http-nio-8080-exec-35] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+27-Apr-2018 16:39:07.537 FINE [http-nio-8080-exec-35] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+27-Apr-2018 16:39:07.539 FINE [http-nio-8080-exec-35] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+27-Apr-2018 16:39:07.540 FINE [http-nio-8080-exec-35] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:39:07.540 FINE [http-nio-8080-exec-35] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:39:08.459 FINE [http-nio-8080-exec-33] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/user/advanced.html
+27-Apr-2018 16:39:08.460 FINE [http-nio-8080-exec-33] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+27-Apr-2018 16:39:08.461 FINE [http-nio-8080-exec-33] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+27-Apr-2018 16:39:08.462 FINE [http-nio-8080-exec-33] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/advanced.html --> true
+27-Apr-2018 16:39:08.462 FINE [http-nio-8080-exec-33] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/advanced.html --> false
+27-Apr-2018 16:39:08.463 FINE [http-nio-8080-exec-33] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling hasUserDataPermission()
+27-Apr-2018 16:39:08.465 FINE [http-nio-8080-exec-33] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+27-Apr-2018 16:39:08.467 FINE [http-nio-8080-exec-33] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling authenticate()
+27-Apr-2018 16:39:08.469 FINE [http-nio-8080-exec-33] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session 'BD3051FCB9DA1E7D4A0C577B800AEB9E'
+27-Apr-2018 16:39:08.469 FINE [http-nio-8080-exec-33] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/WebProject/user/advanced.html] made with method [GET] to login page [/login.html] of context [/WebProject] using request method GET
+27-Apr-2018 16:39:08.474 FINE [http-nio-8080-exec-33] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Failed authenticate() test
+27-Apr-2018 16:39:10.436 FINE [http-nio-8080-exec-37] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+27-Apr-2018 16:39:10.436 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:39:10.437 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:39:10.438 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:39:10.439 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:39:10.439 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:39:10.439 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:39:10.440 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:39:10.440 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:39:10.441 FINE [http-nio-8080-exec-37] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:39:10.441 FINE [http-nio-8080-exec-37] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:40:38.667 FINE [http-nio-8080-exec-41] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+27-Apr-2018 16:40:38.667 FINE [http-nio-8080-exec-41] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:40:38.668 FINE [http-nio-8080-exec-41] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:40:38.669 FINE [http-nio-8080-exec-41] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:40:38.671 FINE [http-nio-8080-exec-41] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:40:38.671 FINE [http-nio-8080-exec-41] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:40:38.672 FINE [http-nio-8080-exec-41] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:40:38.673 FINE [http-nio-8080-exec-41] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:40:38.674 FINE [http-nio-8080-exec-41] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:40:38.674 FINE [http-nio-8080-exec-41] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:40:38.675 FINE [http-nio-8080-exec-41] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+27-Apr-2018 16:55:32.468 FINE [http-nio-8080-exec-43] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+27-Apr-2018 16:55:32.468 FINE [http-nio-8080-exec-43] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:55:32.468 FINE [http-nio-8080-exec-43] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:55:32.469 FINE [http-nio-8080-exec-43] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:55:32.469 FINE [http-nio-8080-exec-43] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:55:32.469 FINE [http-nio-8080-exec-43] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:55:32.469 FINE [http-nio-8080-exec-43] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:55:32.470 FINE [http-nio-8080-exec-43] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:55:32.470 FINE [http-nio-8080-exec-43] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+27-Apr-2018 16:55:32.470 FINE [http-nio-8080-exec-43] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+27-Apr-2018 16:55:32.470 FINE [http-nio-8080-exec-43] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
