@@ -5,12 +5,16 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.StringReader;
 import java.io.UnsupportedEncodingException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.json.Json;
+import javax.json.JsonObject;
+import javax.json.JsonReader;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -39,12 +43,6 @@ public class GitAuth extends HttpServlet {
 	private static final String CLIENT_ID="099b3b26927004bc8273";
 	private static final String CLIENT_SECRET="221fb6a5ad8c6aa01f1f7efdb32ae6dd1667f3bc";
        
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public GitAuth() {
-        super();
-    }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
@@ -58,12 +56,16 @@ public class GitAuth extends HttpServlet {
 		System.out.println("Reposting ...");
 		
 		try {
-			String access_token=repostAndGetToken(code,CLIENT_ID,CLIENT_SECRET);
+			JsonObject object=repostAndGetToken(code,CLIENT_ID,CLIENT_SECRET);
+
+			LoginManager.gitAuthLoginEvent(object, response);
+			
 		} catch (URISyntaxException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
+
 	}
 	
 	private String repostAndGetTokenJSON(String code,String clientId,String clientSecret) throws IOException{
@@ -71,11 +73,13 @@ public class GitAuth extends HttpServlet {
 		return null;
 	}
 	
-	private String repostAndGetToken(String code,String clientId,String clientSecret) throws IOException, URISyntaxException
+	private JsonObject repostAndGetToken(String code,String clientId,String clientSecret) throws IOException, URISyntaxException
 	{
 		CloseableHttpClient defClient=HttpClients.createDefault();
 		HttpPost post=new HttpPost("https://github.com/login/oauth/access_token");
 	
+		
+		
 		
 		//setting parameters for post method
 		List<NameValuePair> params = new ArrayList<NameValuePair>(2);
@@ -107,7 +111,16 @@ public class GitAuth extends HttpServlet {
 
 		}
 		
+		JsonReader reader= Json.createReader(new StringReader(inputLine));
+		JsonObject object=reader.readObject();
+		
 		System.out.println(inputLine);
+		
+		defClient.close();
+
+		
+		return object;
+		
 		/*System.out.println("Trimming:");
 		
 		String processed=inputLine.split("&")[0];
@@ -116,15 +129,7 @@ public class GitAuth extends HttpServlet {
 		processed=processed.split("=")[1];
 		System.out.println(processed);
 		*/
-		defClient.close();
 
-		return null;
-	}
-
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	}
 
 }
