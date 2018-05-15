@@ -7,7 +7,7 @@ import cli.CLI;
 public class DataBaseCLI extends CLI{
 	
 	public static void main(String[] args) {
-	//	CLI.main(new String[] {"backend.database.DataBaseCLI"});
+		CLI.main(new String[] {"backend.database.DataBaseCLI"});
 	}
 	
 	private DataBaseManager database;
