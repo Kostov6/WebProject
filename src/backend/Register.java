@@ -16,6 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.validator.routines.EmailValidator;
 
+import backend.core.managers.RegisterManager;
 import exceptions.RegistrationException;
 
 /**
@@ -28,7 +29,7 @@ public class Register extends HttpServlet {
 	/**
 	 * @see HttpServlet#HttpServlet()
 	 */
-
+/*
 	private static final String JDBC_PASS = "TooMuchSwag69";
 
 	public Register() {
@@ -40,7 +41,7 @@ public class Register extends HttpServlet {
 		}
 	}
 
-	
+	*/
 	
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
@@ -71,65 +72,25 @@ public class Register extends HttpServlet {
 
 	}
 
-	private void attemptRerister(String email, String password,
+	private void attemptRerister(String username, String password,
 			String repeatedPassword) throws RegistrationException, SQLException {
 
-		Connection connection = DriverManager.getConnection(
-				"jdbc:mysql://localhost/project", "root", JDBC_PASS);
+		
 
-		if (!emailExists(email))
-			throw new RegistrationException("Email does not exist");
-		if (checkEmailAlreadyTaken(connection,email))
-			throw new RegistrationException("This email is already in use");
+		if (checkUsernameAlreadyTaken(username))
+			throw new RegistrationException("This username is already in use");
 		if (!password.equals(repeatedPassword))
 			throw new RegistrationException("Passwords don't match");
 
-		registerInDatabase(connection,email, password);
+		RegisterManager.registerInDatabase(username, password);
 
-		connection.close();
 	}
 
-	//for testing
-	public static void main(String[] args) throws SQLException {
-		Register reg = new Register();
-		String email="email";
+	
+	private boolean checkUsernameAlreadyTaken(String username) throws SQLException {
 		
-		System.out.println
-		("select * from users where user_name='" + email+"';");
-		// String user="user";
-		// String password="pass";
-		// System.out.println("insert into users('user_name','user_pass') values('"
-		// + user+"','"
-		// + password +"');");
-		// System.out.println
-		// ("insert into user_roles('user_name','role_name') values('"
-		// + user+"','"
-		// + "user" +"');");
-		// reg.registerInDatabase(null, null);
-	}
 
-	private void registerInDatabase(Connection connection,String user, String password) throws SQLException{
-		Statement statement = connection.createStatement();
-		
-		statement.executeUpdate("insert into users values('" + user + "','"
-				+ password + "');");
-
-		statement.executeUpdate("insert into user_roles values('" + user
-				+ "','" + "user" + "');");
-	}
-
-	private boolean emailExists(String email) {
-		boolean valid = EmailValidator.getInstance().isValid(email);
-		return valid;
-	}
-
-	private boolean checkEmailAlreadyTaken(Connection connection,String email) throws SQLException {
-		Statement statement = connection.createStatement();
-		
-		ResultSet res = statement
-				.executeQuery("select * from users where user_name='" + email+"';");
-
-		return res.next();
+		return RegisterManager.checkUsernameAlreadyTaken(username);
 	}
 
 }

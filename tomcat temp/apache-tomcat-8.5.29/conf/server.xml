@@ -152,12 +152,12 @@
              that are performed against this UserDatabase are immediately
              available for use by the Realm.  -->
        <!-- <Realm className="org.apache.catalina.realm.UserDatabaseRealm"/>-->
-			   <Realm className="org.apache.catalina.realm.JDBCRealm"
+		<Realm className="org.apache.catalina.realm.JDBCRealm"
 				resourceName="MYSQLDatabase"
 				debug="9"
 				driverName="org.gjt.mm.mysql.Driver"
-				connectionURL="jdbc:mysql://localhost/project?user=root&amp;password=matematika6"
-				userTable="users" userNameCol="user_name" userCredCol="user_pass"
+				connectionURL="jdbc:mysql://localhost/project?user=root&amp;password=TooMuchSwag69"
+				userTable="users" userNameCol="user" userCredCol="password"
 				userRoleTable="user_roles" roleNameCol="role_name"/>
       </Realm>
 

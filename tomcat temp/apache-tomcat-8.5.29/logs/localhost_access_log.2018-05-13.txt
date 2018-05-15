@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [13/May/2018:01:18:57 +0300] "GET /WebProject/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/May/2018:01:18:57 +0300] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [13/May/2018:01:18:59 +0300] "GET /WebProject/user/Login HTTP/1.1" 200 772
+0:0:0:0:0:0:0:1 - - [13/May/2018:01:19:03 +0300] "GET /WebProject/GitAuth?error=redirect_uri_mismatch&error_description=The+redirect_uri+MUST+match+the+registered+callback+URL+for+this+application.&error_uri=https%3A%2F%2Fdeveloper.github.com%2Fapps%2Fmanaging-oauth-apps%2Ftroubleshooting-authorization-request-errors%2F%23redirect-uri-mismatch HTTP/1.1" 500 1614

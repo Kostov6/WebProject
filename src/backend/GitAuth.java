@@ -26,12 +26,16 @@ import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.params.HttpParams;
+
+import backend.core.RESTQuery;
+import backend.core.managers.LoginManager;
 
 /**
  * Servlet implementation class GitAuth
@@ -58,15 +62,37 @@ public class GitAuth extends HttpServlet {
 		try {
 			JsonObject object=repostAndGetToken(code,CLIENT_ID,CLIENT_SECRET);
 
-			LoginManager.gitAuthLoginEvent(object, response);
-			
+			//postToJSecurity(
+					GitUser user=LoginManager.gitAuthLoginEvent(object, response);
+			response.sendRedirect("http://localhost:8080/WebProject/user/Login?"
+					+ "j_username="+user.user+"&j_password="+user.password+"");			
 		} catch (URISyntaxException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
+		
+		
 
 	}
+	
+	/*private void postToJSecurity(GitUser user) throws URISyntaxException, ClientProtocolException, IOException
+	{
+		CloseableHttpClient defClient=HttpClients.createDefault();
+		HttpPost post=new HttpPost("http://localhost:8080/WebProject/Login");
+	
+		
+		List<NameValuePair> params = new ArrayList<NameValuePair>(2);
+		System.out.println("j_username = "+user.user+" password = "+user.password);
+		params.add(new BasicNameValuePair("j_username", user.user));
+		params.add(new BasicNameValuePair("j_password", user.password));
+
+		URI uri = new URIBuilder(post.getURI()).addParameters(params).build();
+        post.setURI(uri);
+		defClient.execute(post);
+
+		defClient.close();
+	}*/
+	
 	
 	private String repostAndGetTokenJSON(String code,String clientId,String clientSecret) throws IOException{
 		
@@ -76,10 +102,8 @@ public class GitAuth extends HttpServlet {
 	private JsonObject repostAndGetToken(String code,String clientId,String clientSecret) throws IOException, URISyntaxException
 	{
 		CloseableHttpClient defClient=HttpClients.createDefault();
-		HttpPost post=new HttpPost("https://github.com/login/oauth/access_token");
+		HttpGet post=new HttpGet("https://github.com/login/oauth/access_token");
 	
-		
-		
 		
 		//setting parameters for post method
 		List<NameValuePair> params = new ArrayList<NameValuePair>(2);
@@ -117,19 +141,8 @@ public class GitAuth extends HttpServlet {
 		System.out.println(inputLine);
 		
 		defClient.close();
-
 		
 		return object;
-		
-		/*System.out.println("Trimming:");
-		
-		String processed=inputLine.split("&")[0];
-		System.out.println(processed);
-		
-		processed=processed.split("=")[1];
-		System.out.println(processed);
-		*/
-
 	}
 
 }

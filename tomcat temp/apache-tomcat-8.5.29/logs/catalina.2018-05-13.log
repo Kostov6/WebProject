@@ -1,0 +1,143 @@
+13-May-2018 01:18:11.824 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Realm/Realm} Setting property 'resourceName' to 'MYSQLDatabase' did not find a matching property.
+13-May-2018 01:18:11.827 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin [SetPropertiesRule]{Server/Service/Engine/Realm/Realm} Setting property 'debug' to '9' did not find a matching property.
+13-May-2018 01:18:11.857 WARNING [main] org.apache.catalina.core.StandardContext.setPath A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+13-May-2018 01:18:11.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.29
+13-May-2018 01:18:11.876 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 13:11:12 UTC
+13-May-2018 01:18:11.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.29.0
+13-May-2018 01:18:11.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-May-2018 01:18:11.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-May-2018 01:18:11.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-May-2018 01:18:11.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_161\jre
+13-May-2018 01:18:11.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+13-May-2018 01:18:11.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-May-2018 01:18:11.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29
+13-May-2018 01:18:11.878 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29
+13-May-2018 01:18:11.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\conf\logging.properties
+13-May-2018 01:18:11.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-May-2018 01:18:11.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-May-2018 01:18:11.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-May-2018 01:18:11.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-May-2018 01:18:11.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29
+13-May-2018 01:18:11.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29
+13-May-2018 01:18:11.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\temp
+13-May-2018 01:18:11.881 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+13-May-2018 01:18:11.881 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+13-May-2018 01:18:11.882 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-May-2018 01:18:12.691 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+13-May-2018 01:18:12.819 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-May-2018 01:18:12.938 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-May-2018 01:18:12.945 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-May-2018 01:18:12.948 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-May-2018 01:18:12.949 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2718 ms
+13-May-2018 01:18:12.965 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-May-2018 01:18:12.966 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.29
+13-May-2018 01:18:14.802 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+13-May-2018 01:18:14.852 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2018 01:18:14.895 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+13-May-2018 01:18:15.667 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+13-May-2018 01:18:15.687 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2018 01:18:15.694 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [798] ms
+13-May-2018 01:18:15.696 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\docs]
+13-May-2018 01:18:15.858 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+13-May-2018 01:18:15.862 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2018 01:18:15.864 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\docs] has finished in [169] ms
+13-May-2018 01:18:15.864 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\examples]
+13-May-2018 01:18:16.914 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+13-May-2018 01:18:17.023 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2018 01:18:17.067 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\examples] has finished in [1,202] ms
+13-May-2018 01:18:17.067 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\host-manager]
+13-May-2018 01:18:17.212 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+13-May-2018 01:18:17.216 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2018 01:18:17.220 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\host-manager] has finished in [153] ms
+13-May-2018 01:18:17.220 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\manager]
+13-May-2018 01:18:17.352 FINE [localhost-startStop-1] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+13-May-2018 01:18:17.356 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2018 01:18:17.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\manager] has finished in [139] ms
+13-May-2018 01:18:17.363 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-May-2018 01:18:17.371 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-May-2018 01:18:17.375 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4425 ms
+13-May-2018 01:18:37.370 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebProject]
+13-May-2018 01:18:37.407 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebProject] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.util.zip.Inflater.inflateBytes(Native Method)
+ java.util.zip.Inflater.inflate(Inflater.java:259)
+ java.util.zip.InflaterInputStream.read(InflaterInputStream.java:152)
+ sun.misc.Resource.getBytes(Resource.java:124)
+ java.net.URLClassLoader.defineClass(URLClassLoader.java:462)
+ java.net.URLClassLoader.access$100(URLClassLoader.java:73)
+ java.net.URLClassLoader$1.run(URLClassLoader.java:368)
+ java.net.URLClassLoader$1.run(URLClassLoader.java:362)
+ java.security.AccessController.doPrivileged(Native Method)
+ java.net.URLClassLoader.findClass(URLClassLoader.java:361)
+ java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+ java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+ org.apache.catalina.webresources.StandardRoot.isPackedWarFile(StandardRoot.java:656)
+ org.apache.catalina.webresources.CachedResource.validateResource(CachedResource.java:96)
+ org.apache.catalina.webresources.Cache.getResource(Cache.java:69)
+ org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+ org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+ org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:884)
+ org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1005)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+13-May-2018 01:18:37.471 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war]
+13-May-2018 01:18:38.942 FINE [localhost-startStop-2] org.apache.catalina.authenticator.AuthenticatorBase.startInternal No SingleSignOn Valve is present
+13-May-2018 01:18:42.409 INFO [Abandoned connection cleanup thread] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:986)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.checkContextClassLoaders(AbandonedConnectionCleanupThread.java:90)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+13-May-2018 01:18:46.707 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2018 01:18:46.715 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\webapps\WebProject.war] has finished in [9,245] ms
+13-May-2018 01:18:57.380 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/index.html
+13-May-2018 01:18:57.381 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+13-May-2018 01:18:57.381 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+13-May-2018 01:18:57.381 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+13-May-2018 01:18:57.381 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+13-May-2018 01:18:57.382 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+13-May-2018 01:18:57.382 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+13-May-2018 01:18:57.382 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /index.html --> false
+13-May-2018 01:18:57.382 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /index.html --> false
+13-May-2018 01:18:57.382 FINE [http-nio-8080-exec-1] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+13-May-2018 01:18:57.387 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl.loadPersistentRegistrations Loading persistent provider registrations from [C:\Disk\Web development\eclipse\EEworkspace\WebProject\tomcat temp\apache-tomcat-8.5.29\conf\jaspic-providers.xml]
+13-May-2018 01:18:57.404 FINE [http-nio-8080-exec-1] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+13-May-2018 01:18:57.464 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /favicon.ico
+13-May-2018 01:18:57.464 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+13-May-2018 01:18:57.465 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+13-May-2018 01:18:57.465 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+13-May-2018 01:18:57.466 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+13-May-2018 01:18:57.466 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+13-May-2018 01:18:57.466 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+13-May-2018 01:18:57.467 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /favicon.ico --> false
+13-May-2018 01:18:57.468 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /favicon.ico --> false
+13-May-2018 01:18:57.468 FINE [http-nio-8080-exec-5] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+13-May-2018 01:18:57.469 FINE [http-nio-8080-exec-5] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint
+13-May-2018 01:18:59.390 FINE [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/user/Login
+13-May-2018 01:18:59.391 FINE [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/Login --> true
+13-May-2018 01:18:59.391 FINE [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/Login --> false
+13-May-2018 01:18:59.391 FINE [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /user/Login --> true
+13-May-2018 01:18:59.392 FINE [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /user/Login --> false
+13-May-2018 01:18:59.392 FINE [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling hasUserDataPermission()
+13-May-2018 01:18:59.392 FINE [http-nio-8080-exec-10] org.apache.catalina.realm.RealmBase.hasUserDataPermission   User data constraint has no restrictions
+13-May-2018 01:18:59.392 FINE [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Calling authenticate()
+13-May-2018 01:18:59.397 FINE [http-nio-8080-exec-10] org.apache.catalina.authenticator.FormAuthenticator.doAuthenticate Save request in session '6CE814D3A99A5ABC0D7281B3944D0CF1'
+13-May-2018 01:18:59.399 FINE [http-nio-8080-exec-10] org.apache.catalina.authenticator.FormAuthenticator.forwardToLoginPage Forwarding request for [/WebProject/user/Login] made with method [GET] to login page [/user/Login] of context [/WebProject] using request method GET
+13-May-2018 01:18:59.457 FINE [http-nio-8080-exec-10] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Failed authenticate() test
+13-May-2018 01:19:02.183 FINE [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke Security checking request GET /WebProject/GitAuth
+13-May-2018 01:19:02.184 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+13-May-2018 01:19:02.184 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+13-May-2018 01:19:02.185 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+13-May-2018 01:19:02.185 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+13-May-2018 01:19:02.186 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+13-May-2018 01:19:02.186 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+13-May-2018 01:19:02.187 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[User Protected]' against GET /GitAuth --> false
+13-May-2018 01:19:02.187 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   Checking constraint 'SecurityConstraint[Admin Protected]' against GET /GitAuth --> false
+13-May-2018 01:19:02.187 FINE [http-nio-8080-exec-7] org.apache.catalina.realm.RealmBase.findSecurityConstraints   No applicable constraint located
+13-May-2018 01:19:02.187 FINE [http-nio-8080-exec-7] org.apache.catalina.authenticator.AuthenticatorBase.invoke  Not subject to any constraint

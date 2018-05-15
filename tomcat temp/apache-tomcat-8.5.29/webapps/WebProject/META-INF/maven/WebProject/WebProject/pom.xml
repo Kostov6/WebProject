@@ -6,6 +6,15 @@
   <packaging>war</packaging>
   <dependencies>
   
+  <dependency>
+         <groupId>cli</groupId>
+         <artifactId>cli</artifactId>
+         <scope>system</scope>
+         <version>1.0</version>
+         <systemPath>${basedir}\cli.jar</systemPath>
+      </dependency>
+  
+  
   <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
 	<dependency>
 	    <groupId>org.apache.httpcomponents</groupId>
